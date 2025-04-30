@@ -39,6 +39,6 @@ jobs:
         with:
           context: .
           push: true
-          file: ./environment/prodution/app/Dockerfile
+          file: ./environment/production/app/Dockerfile
           platforms: linux/${{ matrix.arch }}
           tags: ghcr.io/jeftecosta/elixircr:${{ github.ref_name }}
