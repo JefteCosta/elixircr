@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.6](https://github.com/JefteCosta/elixircr/compare/v1.2.5...v1.2.6) (2025-04-30)
+
+
+### Bug Fixes
+
+* **cd:** ateracao de action somente para tags v ([7df6b42](https://github.com/JefteCosta/elixircr/commit/7df6b42f6e71c3c7c0122261f41a69e0e815767c))
+
 ## [1.2.5](https://github.com/JefteCosta/elixircr/compare/v1.2.4...v1.2.5) (2025-04-30)
 
 
