@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/JefteCosta/elixircr/compare/v1.1.0...v1.2.0) (2025-04-30)
+
+
+### Features
+
+* **docker:** criacao de um docker compose para rodar localmente ([18b4da4](https://github.com/JefteCosta/elixircr/commit/18b4da471230a7239340886be165d48e530fe998))
+
 ## [1.1.0](https://github.com/JefteCosta/elixircr/compare/v1.0.0...v1.1.0) (2025-04-30)
 
 
