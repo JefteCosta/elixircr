@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.8](https://github.com/JefteCosta/elixircr/compare/v1.2.7...v1.2.8) (2025-04-30)
+
+
+### Bug Fixes
+
+* **cd:** alterando para rodar sem matrix e sem qemu ([cadd3cf](https://github.com/JefteCosta/elixircr/commit/cadd3cf700111719b0a83c6b50428a3f058e7f7f))
+
 ## [1.2.7](https://github.com/JefteCosta/elixircr/compare/v1.2.6...v1.2.7) (2025-04-30)
 
 
