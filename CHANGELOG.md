@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/JefteCosta/elixircr/compare/v1.2.3...v1.2.4) (2025-04-30)
+
+
+### Bug Fixes
+
+* **digitaçao:** erro de digitacao na file do build do action ([82c4858](https://github.com/JefteCosta/elixircr/commit/82c4858cd6e35650523c0ee50f4e29882dd2e685))
+
 ## [1.2.3](https://github.com/JefteCosta/elixircr/compare/v1.2.2...v1.2.3) (2025-04-30)
 
 
