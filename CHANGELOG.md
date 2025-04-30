@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/JefteCosta/elixircr/compare/v1.2.0...v1.2.1) (2025-04-30)
+
+
+### Bug Fixes
+
+* **docker pipeline:** alterando pipeline para rodar um emulador para arm ([79b482d](https://github.com/JefteCosta/elixircr/commit/79b482d3dccde7983f681af2568e4b48313dfe3e))
+
 ## [1.2.0](https://github.com/JefteCosta/elixircr/compare/v1.1.0...v1.2.0) (2025-04-30)
 
 
