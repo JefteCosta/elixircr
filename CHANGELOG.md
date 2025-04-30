@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/JefteCosta/elixircr/compare/v1.2.1...v1.2.2) (2025-04-30)
+
+
+### Bug Fixes
+
+* **docker pipeline:** criacao de pipeline para ultilizacao de matrix para dodar diferentes tipos de ([dccb7ae](https://github.com/JefteCosta/elixircr/commit/dccb7aee8c76168e08af2d96f0da95b73836012a))
+
 ## [1.2.1](https://github.com/JefteCosta/elixircr/compare/v1.2.0...v1.2.1) (2025-04-30)
 
 
