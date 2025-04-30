@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/JefteCosta/elixircr/compare/v1.2.2...v1.2.3) (2025-04-30)
+
+
+### Bug Fixes
+
+* **pipeline deploy:** forçando o nome do owner de repo para minusculo ([4242950](https://github.com/JefteCosta/elixircr/commit/42429505ff5f71db8b7978334483b1ead3fc08af))
+
 ## [1.2.2](https://github.com/JefteCosta/elixircr/compare/v1.2.1...v1.2.2) (2025-04-30)
 
 
