@@ -41,4 +41,4 @@ jobs:
           push: true
           file: ./environment/prodution/app/Dockerfile
           platforms: linux/${{ matrix.arch }}
-          tags: ghcr.io/${{ github.repository_owner }}/elixircr:${{ github.ref_name }}
+          tags: ghcr.io/jeftecosta/elixircr:${{ github.ref_name }}
