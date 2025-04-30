@@ -1,6 +1,6 @@
 {
   "name": "elixircr",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "To start your Phoenix server:",
   "main": "index.js",
   "directories": {
