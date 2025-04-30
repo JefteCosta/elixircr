@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.7](https://github.com/JefteCosta/elixircr/compare/v1.2.6...v1.2.7) (2025-04-30)
+
+
+### Bug Fixes
+
+* **cd:** sempre na alteracao da release ([1e0f55a](https://github.com/JefteCosta/elixircr/commit/1e0f55ab87f1e1f7ef577a6602261d1d74ae4a1b))
+* **cicd:** aterar token do github ([339c5ec](https://github.com/JefteCosta/elixircr/commit/339c5ec00c82762619a27421d814abf8068c8655))
+
 ## [1.2.6](https://github.com/JefteCosta/elixircr/compare/v1.2.5...v1.2.6) (2025-04-30)
 
 
