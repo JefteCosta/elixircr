@@ -5,7 +5,7 @@ ENV MIX_ENV=prod \
 
 WORKDIR /app
 
-RUN apt-get update && \
+RUN apt-get update -y && \
     apt-get install -y build-essential npm postgresql-client git
 
 COPY mix.exs mix.lock ./
@@ -16,12 +16,12 @@ COPY . .
 RUN mix assets.deploy
 RUN mix compile
 RUN mix release
-
+RUN ls -la _build/prod/rel/elixircr/bin
 # Final stage
-FROM debian:bullseye-slim AS app
+FROM elixir:1.18.3-otp-27 AS app
 
-RUN apt-get update && \
-    apt-get install -y libssl3 openssl libncurses5 && \
+RUN apt-get update -y && \
+    apt-get install -y libssl-dev openssl libncurses5 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 

@@ -27,3 +27,4 @@ elixir_test-*.tar
 
 .env
 node_modules
+data
