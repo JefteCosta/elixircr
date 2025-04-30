@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.5](https://github.com/JefteCosta/elixircr/compare/v1.2.4...v1.2.5) (2025-04-30)
+
+
+### Bug Fixes
+
+* **variaveis:** aterando variaveis de ambiente ([455efc8](https://github.com/JefteCosta/elixircr/commit/455efc84160199f1d15920529a2e193ed142d2e2))
+
 ## [1.2.4](https://github.com/JefteCosta/elixircr/compare/v1.2.3...v1.2.4) (2025-04-30)
 
 
