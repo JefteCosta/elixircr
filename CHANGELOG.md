@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.11](https://github.com/JefteCosta/elixircr/compare/v1.2.10...v1.2.11) (2025-05-01)
+
+
+### Bug Fixes
+
+* **cd:** alterando para ubuntu-24.04-arm ([653e681](https://github.com/JefteCosta/elixircr/commit/653e6817d919a6d8df8809dfa676b34b0e3dbfc2))
+
 ## [1.2.10](https://github.com/JefteCosta/elixircr/compare/v1.2.9...v1.2.10) (2025-05-01)
 
 
