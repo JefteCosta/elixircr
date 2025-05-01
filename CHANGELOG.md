@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.3.0](https://github.com/JefteCosta/elixircr/compare/v1.2.12...v1.3.0) (2025-05-01)
+
+
+### Features
+
+* **dockerfile:** alteracao da imagem para uma imagem mais leve ([b763de5](https://github.com/JefteCosta/elixircr/commit/b763de588353c7be14e127d8f782eda8dc5f3db3))
+
+
+### Bug Fixes
+
+* **cd:** rodando o cd so com buildx se qemu ([122661a](https://github.com/JefteCosta/elixircr/commit/122661afd7630cf901f055a602ff366617cc13a7))
+* **ci:** alteracao do packeage para ser do tipo modules ([f84e556](https://github.com/JefteCosta/elixircr/commit/f84e55667f290d8ea688717fa73a64c80aabadb6))
+* **dockerfile:** alteracao do dockerfile para ficar mais leve a imagen ([aad92ac](https://github.com/JefteCosta/elixircr/commit/aad92acfe4c941a884db4234267dd28873c4698a))
+
 ## [1.2.12](https://github.com/JefteCosta/elixircr/compare/v1.2.11...v1.2.12) (2025-05-01)
 
 
