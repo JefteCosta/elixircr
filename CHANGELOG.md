@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.12](https://github.com/JefteCosta/elixircr/compare/v1.2.11...v1.2.12) (2025-05-01)
+
+
+### Bug Fixes
+
+* **cd:** teste de suso com qemu ([3a780db](https://github.com/JefteCosta/elixircr/commit/3a780db40f54769b65383628e3b601afacb607a0))
+
 ## [1.2.11](https://github.com/JefteCosta/elixircr/compare/v1.2.10...v1.2.11) (2025-05-01)
 
 
