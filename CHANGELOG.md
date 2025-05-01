@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/JefteCosta/elixircr/compare/v1.4.0...v1.5.0) (2025-05-01)
+
+
+### Features
+
+* **cd:** altera o modo a qual a imagen e buildada ([34b6756](https://github.com/JefteCosta/elixircr/commit/34b67569d98ca7d14c2a7ae65610c5150e71ac51))
+
 ## [1.4.0](https://github.com/JefteCosta/elixircr/compare/v1.3.1...v1.4.0) (2025-05-01)
 
 
