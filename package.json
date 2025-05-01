@@ -3,6 +3,10 @@
   "version": "1.2.12",
   "description": "To start your Phoenix server:",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "elixircr": "./bin/elixircr"
+  },
   "directories": {
     "lib": "lib",
     "test": "test"
