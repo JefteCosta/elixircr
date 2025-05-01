@@ -20,10 +20,10 @@ RUN ls -la _build/prod/rel/elixircr/bin
 # Final stage
 FROM elixir:1.18.3-otp-27 AS app
 
-RUN apt-get update -y && \
-    apt-get install -y libssl-dev openssl libncurses5 && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+# RUN apt-get update -y && \
+#     apt-get install -y libssl-dev openssl libncurses5 && \
+#     apt-get clean && \
+#     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
