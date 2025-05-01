@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/JefteCosta/elixircr/compare/v1.3.1...v1.4.0) (2025-05-01)
+
+
+### Features
+
+* **cd:** novo build separado para amd64 e arm64 para compara a velocidade do build ([d7af078](https://github.com/JefteCosta/elixircr/commit/d7af0784c1914fad165a54a147883bc91c7f3059))
+
 ## [1.3.1](https://github.com/JefteCosta/elixircr/compare/v1.3.0...v1.3.1) (2025-05-01)
 
 
