@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.1](https://github.com/JefteCosta/elixircr/compare/v1.3.0...v1.3.1) (2025-05-01)
+
+
+### Bug Fixes
+
+* **ci:** apagando arquivos desnecessarios ([3bc30aa](https://github.com/JefteCosta/elixircr/commit/3bc30aab7abe699d2e510c70483a0df3a993186d))
+* **type:** alterando type no package para commomjs ([0bc51ee](https://github.com/JefteCosta/elixircr/commit/0bc51eed8cdfb245e879638d9372a3ff3e51ab27))
+
 ## [1.3.0](https://github.com/JefteCosta/elixircr/compare/v1.2.12...v1.3.0) (2025-05-01)
 
 
