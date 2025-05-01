@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.9](https://github.com/JefteCosta/elixircr/compare/v1.2.8...v1.2.9) (2025-05-01)
+
+
+### Bug Fixes
+
+* **cd:** trocando runs-on para macos-latest ([4cfc313](https://github.com/JefteCosta/elixircr/commit/4cfc3134e57adedb68f4316a628c7b7a0c10fed3))
+
 ## [1.2.8](https://github.com/JefteCosta/elixircr/compare/v1.2.7...v1.2.8) (2025-04-30)
 
 
