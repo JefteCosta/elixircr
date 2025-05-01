@@ -1,4 +1,4 @@
-FROM elixir:1.18.3-otp-27 AS build
+FROM elixir:1.18.3-otp-27-slim AS build
 
 ENV MIX_ENV=prod \
     LANG=C.UTF-8
@@ -18,7 +18,7 @@ RUN mix compile
 RUN mix release
 RUN ls -la _build/prod/rel/elixircr/bin
 # Final stage
-FROM elixir:1.18.3-otp-27 AS app
+FROM elixir:1.18.3-otp-27-slim AS app
 
 # RUN apt-get update -y && \
 #     apt-get install -y libssl-dev openssl libncurses5 && \
