@@ -23,23 +23,39 @@ services:
       - ./data/app:/var/lib
     networks:
       - jc_network
+  app_test:
+    image: ghcr.io/jeftecosta/elixircr:latest
+    container_name: elixircr_github
+    restart: always
+    environment:
+      PORT: ${PORT}
+      PHX_SERVER: ${PHX_SERVER}
+      DATABASE_URL: ${DATABASE_URL}
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      PHX_HOST: ${PHX_HOST}
+      BUILD_CONTEXT: ${BUILD_CONTEXT}
+    ports:
+      - "4002:4001"
     
-  # dbpostgres:
-  #   build: 
-  #     context: ${BUILD_CONTEXT}/database
-  #     dockerfile: Dockerfile
-  #   container_name: ddpostgres
-  #   restart: always
-  #   environment:
-  #     POSTGRES_USER: ${POSTGRES_USER}
-  #     POSTGRES_DB: ${POSTGRES_DB}
-  #     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-  #   ports:
-  #     - "5432:5432"
-  #   volumes:
-  #     - ./data/postgres:/var/lib/postgresql/data
-  #   networks:
-  #     - jc_network
+  dbpostgres:
+    build: 
+      context: ${BUILD_CONTEXT}/database
+      dockerfile: Dockerfile
+    container_name: ddpostgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    networks:
+      - jc_network
 networks:
   jc_network:
     driver: bridge
