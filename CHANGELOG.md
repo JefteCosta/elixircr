@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/JefteCosta/elixircr/compare/v1.5.0...v1.5.1) (2025-05-07)
+
+
+### Bug Fixes
+
+* **headme:** add quebra de linha ([c4e2710](https://github.com/JefteCosta/elixircr/commit/c4e27101632c7903d7d99711f56e7d52937ef9d1))
+
 ## [1.5.0](https://github.com/JefteCosta/elixircr/compare/v1.4.0...v1.5.0) (2025-05-01)
 
 
